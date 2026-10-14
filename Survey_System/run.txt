@@ -1,0 +1,24 @@
+STEP 1: Install Java (JDK)
+
+STEP 2: Install MySQL Server and MySQL Workbench
+
+STEP 3: Open MySQL Workbench and connect using username and password
+
+STEP 4: Open the file "setup.sql" and run all queries to create database and tables
+
+STEP 5: Open SurveySystem.java and update database password:
+static final String PASSWORD = "your_mysql_password";
+
+STEP 6: Open Command Prompt in this project folder
+
+STEP 7: Compile the program:
+javac -cp ".;mysql-connector-j.jar" SurveySystem.java
+
+STEP 8: Run the program:
+java -cp ".;mysql-connector-j.jar" SurveySystem
+
+STEP 9: Use the menu to:
+
+* Add questions
+* Answer survey
+* View responses
